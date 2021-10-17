@@ -9,4 +9,4 @@ eval "$(ssh-agent -s)"
 chmod 600 ~/.ssh/id_rsa
 
 <!-- Adicionar chave ao agente -->
-ssh-add ~/.ssh/id_ed25519
+ssh-add ~/.ssh/id_rsa
